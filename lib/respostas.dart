@@ -10,11 +10,13 @@ class Respostas extends StatelessWidget{
   @override
   Widget build(BuildContext){
     return Container(
+      margin: EdgeInsets.all(16.00),
       width: double.infinity,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
           backgroundColor: Colors.blue,
           foregroundColor: Colors.white,
+          
         ),
         onPressed: quandoSelecionado, 
         child: Text(texto)

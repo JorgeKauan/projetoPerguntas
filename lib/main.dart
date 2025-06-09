@@ -38,39 +38,40 @@ class _PerguntaAppState extends State<PerguntaApp> {
 
   final List<Map<String, Object>> _perguntas = const [
     {
-      'texto': 'Qual a sua cor favorita?',
+      'texto': 'Qual o maior campeão da NBA?',
         'respostas': [
-        {'texto': 'Preto', 'pontuacao': 10},
-        {'texto': 'Vermelho', 'pontuacao': 0}, 
-        {'texto': 'Branco', 'pontuacao': 5}]
+        {'texto': 'Los Angeles Lakers', 'pontuacao': 0},
+        {'texto': 'Golden State Warriors', 'pontuacao': 0}, 
+        {'texto': 'Boston Celtics', 'pontuacao': 10}]
     },
     {
-      'texto': 'Qual seu animal favorito?',
+      'texto': 'Qual o maior pontuador de 3 da NBA?',
         'respostas': [
-        {'texto': 'Yeti', 'pontuacao': 10},
-        {'texto': 'Lula', 'pontuacao': 0}, 
-        {'texto': 'Cachorro', 'pontuacao': 5}]
+        {'texto': 'Kevin Durant', 'pontuacao': 0},
+        {'texto': 'LeBron James', 'pontuacao': 0}, 
+        {'texto': 'Stephen Curry', 'pontuacao': 10}]
     },
       {
-      'texto': 'Qual seu time favorito?',
+      'texto': 'Quantos pontos tem LeBron James em toda a sua carreira?',
         'respostas': [
-        {'texto': 'Ceará', 'pontuacao': 10},
-        {'texto': 'Flamengo', 'pontuacao': 5}, 
-        {'texto': 'Fortalza', 'pontuacao': 0}]
+        {'texto': '50.033', 'pontuacao': 10},
+        {'texto': '51.989', 'pontuacao': 0}, 
+        {'texto': '52.500', 'pontuacao': 0}
+        ]
     },
       {
-      'texto': 'Qual seu esporte favorito?',
+      'texto': 'Quantos titulos tem Stephen Curry?',
         'respostas': [
-        {'texto': 'Basquete', 'pontuacao': 5},
-        {'texto': 'Futebol', 'pontuacao': 10}, 
-        {'texto': 'Beach Tenis', 'pontuacao': 0}]
+        {'texto': '16', 'pontuacao': 0},
+        {'texto': '4', 'pontuacao': 0}, 
+        {'texto': '7', 'pontuacao': 10}]
     },
       {
-      'texto': 'Qual o seu professor favorito?',
+      'texto': 'Qual dos times abaixo Kevin Durat nunca jogou?',
         'respostas': [
-        {'texto': 'Julião', 'pontuacao': 10},
-        {'texto': 'Olegário', 'pontuacao': 10}, 
-        {'texto': 'Alan', 'pontuacao': 10}]
+        {'texto': 'Golden State Warriors', 'pontuacao': 0},
+        {'texto': 'Brooklyn Nets', 'pontuacao': 0}, 
+        {'texto': 'Indiana Pacers', 'pontuacao': 10}]
     },
    
   ];
